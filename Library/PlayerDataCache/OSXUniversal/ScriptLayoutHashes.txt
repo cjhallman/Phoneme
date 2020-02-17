@@ -1,6 +1,6 @@
 OSXUniversal
 PlayerPath?
-/Users/connorhallman/Desktop/Phonemes/Phoneme build 1.app
+/Users/connorhallman/Desktop/Phonemes/Phoneme Build Test.app
 SceneListBegin?
 Assets/Scenes/Play.unity
 SceneListEnd?
