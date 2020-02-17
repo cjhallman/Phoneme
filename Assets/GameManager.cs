@@ -45,12 +45,10 @@ public class GameManager : MonoBehaviour
                 //If the click was on an answer
                 if (hit.collider.gameObject.name == "AnswerBox")
                 {
-                    //Play sound
                     AnswerBoxControl clickedAnswer = hit.collider.gameObject.GetComponent<AnswerBoxControl>();
-                    string answer = clickedAnswer.GetText();
-                    AudioSource audioSource = GetComponent<AudioSource>();
-                    audioSource.clip = Resources.Load<AudioClip>(string.Concat(audioFilePath, answer));
-                    audioSource.Play();
+                    //If the answer was correct move to next phoneme
+                    if (clickedAnswer.correct)
+                        SetNext();
                 }
             }
         }
@@ -58,10 +56,13 @@ public class GameManager : MonoBehaviour
         //TODO: add drag and drop functionality for answers
         if (false)
         {
+           
+            //Play sound
             //AnswerBoxControl clickedAnswer = hit.collider.gameObject.GetComponent<AnswerBoxControl>();
-            //If the answer was correct move to next phoneme
-            //if (clickedAnswer.correct)
-                //SetNext();
+            //string answer = clickedAnswer.GetText();
+            //AudioSource audioSource = GetComponent<AudioSource>();
+            //audioSource.clip = Resources.Load<AudioClip>(string.Concat(audioFilePath, answer));
+            //audioSource.Play();
         }
 
     }
