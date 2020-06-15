@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{7E388491-D863-DBEA-2050-30AF9BA9E4FB}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameManager.cs">
+    <Files>
+      <File FileName="Assets/Scripts/GameManager.cs" Line="96" Column="13" />
+      <File FileName="Assets/Scripts/AnswerBoxControl.cs" />
+      <File FileName="Assets/Scripts/TextBoxControl.cs" />
+      <File FileName="Assets/Scripts/AnswerZoneControl.cs" />
+      <File FileName="Assets/Scripts/GameOver.cs" />
+      <File FileName="Assets/Scripts/ConsecutiveBoxControl.cs" />
+      <File FileName="Assets/Scripts/StatsManager.cs" Line="23" Column="40" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Phonemes" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d7528f0f-28a3-4e6f-83cc-d4ccaed6a4ea" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/connorhallman/Desktop/Phonemes/Temp/UnityTempFile-85162c6fadb9040f7b49d26c44b0682f" relfile="Temp/UnityTempFile-85162c6fadb9040f7b49d26c44b0682f" line="83" column="1" />
+      <Breakpoint file="/Users/connorhallman/Desktop/Phonemes/Temp/UnityTempFile-a4f94929f91724760b6b7a226a506886" relfile="Temp/UnityTempFile-a4f94929f91724760b6b7a226a506886" line="83" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
